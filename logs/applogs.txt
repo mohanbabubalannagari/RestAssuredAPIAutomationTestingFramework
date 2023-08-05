@@ -1,0 +1,168 @@
+2023-08-05T11:11:52,683 [main] ERROR (RestAssuredListener.java:25) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ Request Body =>{
+  "firstname" : "api testing by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response Body =>{
+    "bookingid": 124,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-08-05T11:11:54,579 [main] ERROR (RestAssuredListener.java:25) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ Request Body =>{
+  "firstname" : "rest assured by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 2000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response Body =>{
+    "bookingid": 146,
+    "booking": {
+        "firstname": "rest assured by",
+        "lastname": "testers talk",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-08-05T11:11:55,999 [main] ERROR (RestAssuredListener.java:25) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ Request Body =>{
+  "firstname" : "postman by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 3000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response Body =>{
+    "bookingid": 153,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "testers talk",
+        "totalprice": 3000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-08-05T17:36:08,900 [main] ERROR (RestAssuredListener.java:25) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ Request Body =>{
+  "firstname" : "api testing by",
+  "lastname" : "testers",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response Body =>{
+    "bookingid": 1651,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "testers",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-08-05T17:36:10,875 [main] ERROR (RestAssuredListener.java:25) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ Request Body =>{
+  "firstname" : "restassured by",
+  "lastname" : "testers",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 2000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response Body =>{
+    "bookingid": 1667,
+    "booking": {
+        "firstname": "restassured by",
+        "lastname": "testers",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-08-05T17:36:12,233 [main] ERROR (RestAssuredListener.java:25) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ Request Body =>{
+  "firstname" : "postman by",
+  "lastname" : "testers",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 3000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response Body =>{
+    "bookingid": 1677,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "testers",
+        "totalprice": 3000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
